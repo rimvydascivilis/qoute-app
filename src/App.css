@@ -1,0 +1,46 @@
+.Main{
+    text-align: center;
+    background-color:white;
+    width: 450px;
+    /*Center*/
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /*Center*/
+    padding:20px;
+    border-radius: 40px;
+    
+}
+.author{
+    text-align: right;
+}
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    width: 200px;
+    height: auto;
+    font-size: 25px;
+    color: white;
+    border-radius: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+@media screen and (max-width: 520px) {
+    .Main{
+        width:85%;
+    }
+  }
